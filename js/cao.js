@@ -2,7 +2,7 @@
 
 //SWITCH SALYGOS//
 
-//1//
+//1// (KUO TAI YRA EFEKTYVIAU NEI ELSE IF??)
 
 // const car = "Bentley";
 
