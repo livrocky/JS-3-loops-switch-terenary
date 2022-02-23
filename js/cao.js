@@ -117,17 +117,17 @@
 
 //2//
 
-// let clientAge = "20";
-// let legalAge = "21";
+// const legalAge = "21";
+// const clientAge = "20";
 
-// clientAge >= 21 ? console.log("gali vairuoti") : console.log("negali vairuoti");
+// clientAge >= legalAge ? console.log("can drive") : console.log("cant drive");
 
 //3//
 
-// let clientAge = "-1";
-// let legalAge = "21";
+// const clientAge = "21";
+// const legalAge = "21";
 
-// clientAge < 0 || clientAge > 120 ? console.log("invalid age") : clientAge >= 21 ? console.log("gali vairuoti") : console.log("negali vairuoti");
+// clientAge < 0 || clientAge > 120 ? console.log("invalid number") : clientAge >= legalAge ? console.log("Can Drive") : console.log("Cant Drive");
 
 //LOOP//
 //1-3//
@@ -139,7 +139,7 @@
 //   console.log(i + ". " + name);
 // }
 
-//4//
+// 4//
 
 // for (let i = 10; i > 0; i--) {
 //   console.log(i);
