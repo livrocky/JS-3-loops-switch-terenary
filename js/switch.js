@@ -2,7 +2,7 @@
 // savaites dienu sk konvertavima i zodzius
 //1-7
 
-const savDn = 2;
+const savDn = 7;
 
 // if (savDn === 1) {
 //   console.log(`Pasirinkta diena: ${savDn} === Pirmadienis`);
@@ -22,32 +22,30 @@ const savDn = 2;
 //   console.log(`Pasirinkta diena: ${savDn} === Sis skaicius netinkamas dienai`);
 // }
 
-// switch (savDn) {
-//   case 1:
-//     //vykdomas kodas kai savDn === 1;
-//     console.log(`Pasirinkta diena: ${savDn} === Pirmadienis`);
-//     //break - toliau nebetikrinam ir iseinam is switch;
-//     break;
-//   case 2:
-//     console.log(`Pasirinkta diena: ${savDn} === Antradienis`);
-//     break;
-//   case 3:
-//     console.log(`Pasirinkta diena: ${savDn} === Treciadienis`);
-//     break;
-//   case 4:
-//     console.log(`Pasirinkta diena: ${savDn} === Ketvirtadienis`);
-//     break;
-//   case 5:
-//     console.log(`Pasirinkta diena: ${savDn} === Penktadienis`);
-//     break;
-//   case 6:
-//     console.log(`Pasirinkta diena: ${savDn} === Sestadienis`);
-//     break;
-//   case 7:
-//     console.log(`Pasirinkta diena: ${savDn} === Sekmadienis`);
-//     break;
-//   default:
-//     console.log(`Pasirinkta diena: ${savDn} === Sis skaicius netinkamas dienai`);
-// }
-
-//make age a switch//
+switch (savDn) {
+  case 1:
+    //vykdomas kodas kai savDn === 1;
+    console.log(`Pasirinkta diena: ${savDn} === Pirmadienis`);
+    //break - toliau nebetikrinam ir iseinam is switch;
+    break;
+  case 2:
+    console.log(`Pasirinkta diena: ${savDn} === Antradienis`);
+    break;
+  case 3:
+    console.log(`Pasirinkta diena: ${savDn} === Treciadienis`);
+    break;
+  case 4:
+    console.log(`Pasirinkta diena: ${savDn} === Ketvirtadienis`);
+    break;
+  case 5:
+    console.log(`Pasirinkta diena: ${savDn} === Penktadienis`);
+    break;
+  case 6:
+    console.log(`Pasirinkta diena: ${savDn} === Sestadienis`);
+    break;
+  case 7:
+    console.log(`Pasirinkta diena: ${savDn} === Sekmadienis`);
+    break;
+  default:
+    console.log(`Pasirinkta diena: ${savDn} === Sis skaicius netinkamas dienai`);
+}
